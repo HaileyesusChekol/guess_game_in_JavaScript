@@ -1,0 +1,89 @@
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+.guessTitle{
+    text-align: center;
+    color: #D61C4E;
+    font-family: 'Sacramento', cursive;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.secreteContainer{
+    margin: auto;
+    background-color: #D61C4E;
+    width: 7rem;
+    height: 7rem;
+    border-radius:50%;
+}
+.SecreteNumber{
+    text-align: center;
+    padding-top:1.3rem;
+    color: #F7ECDE;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+.hint{
+    text-align: center;
+}
+.inputContainer{
+    display: inline-block;
+    margin-top: 1.7rem;
+}
+.inputField{
+    position: absolute;
+   text-align: center;
+   margin-top: 1px;
+   height: 4rem;
+   width: 6rem;
+   border-radius: 20%;
+   border-color: #fa0043;
+   font-size: 1.7rem;
+   margin-left: 3rem;
+}
+.btn{
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 1.3rem;
+    color: #EB1D36;
+    margin-top: 7rem;
+    margin-left: 3rem;
+    border-radius: 7px; 
+    background-color:#E8F9FD ;
+    border-color: #E8F9FD;
+}
+.scoreContainer{
+    float: right;
+    margin-right: 6rem;
+}
+.againContainer{
+    margin-top: 3rem;
+}
+.again{
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    margin: auto;
+    width: 6rem;
+    height: 2rem;
+    color:#E8F9FD;
+    background-color: #EB1D36;
+    border-color:#EB1D36;
+    border-radius: 7%;
+    font-size: 1rem;
+}
+
+.score ,.highScore, .number ,.scores ,.high{
+    color: #D61C4E;
+}
+
+
+
+ .btn:hover{
+    border-color:#EB1D36 ;
+}
+.again:hover{
+    border-color:#E8F9FD ;
+}
+.inputField:hover{
+    border-color: #EB1D36;
+}
